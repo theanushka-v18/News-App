@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu a {
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.navbar-menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
